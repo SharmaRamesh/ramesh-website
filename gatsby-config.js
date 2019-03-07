@@ -3,10 +3,17 @@ const pxtorem = require('postcss-pxtorem')
 
 module.exports = {
   siteMetadata: {
-    url: 'https://lumen.netlify.com',
-    title: 'Blog by John Doe',
-    subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    url: 'http://localhost:8000/',
+    title: 'Blog by Ramesh Sharma',
+    author: {
+      name: 'Ramesh Sharma',
+      email: 'ramesh.sharma@gmail.com',
+      twitter: 'SharmaRamesh',
+      github: 'SharmaRamesh',
+      rss: '#',
+      linkedin: 'in/vrsharma',
+    },
+    subtitle: 'My Journey',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
@@ -18,20 +25,7 @@ module.exports = {
         label: 'About me',
         path: '/about/',
       },
-      {
-        label: 'Contact me',
-        path: '/contact/',
-      },
     ],
-    author: {
-      name: 'John Doe',
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vk: '#',
-    },
   },
   plugins: [
     {
@@ -162,7 +156,7 @@ module.exports = {
           }),
       },
     },
-    'gatsby-plugin-offline',
+    // 'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
     {
@@ -199,6 +193,12 @@ module.exports = {
           }),
         ],
         precision: 8,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-s3',
+      options: {
+        bucketName: 'rameshsharma.org',
       },
     },
   ],

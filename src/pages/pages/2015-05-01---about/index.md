@@ -1,13 +1,31 @@
 ---
-title: "About me"
+title: 'About me'
 layout: page
-path: "/about"
+path: '/about'
 ---
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+Accomplished product leader with diversified experience in Product Management and Software Engineering. Skilled at developing innovative software solutions for complex problems. Domains include 3D CAD, Architecture, Engineering, Data & Analytics and Fintech. Proven ability to build, lead and motivate agile software engineering teams to deliver SaaS products on time and under budget.
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](./1.jpg)
+#### Core Competencies:
 
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
+|                                     |     |                                                                                                                                                                                                                                                                                                              |
+| :---------------------------------- | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **PRODUCT MANAGEMENT**              |     | Defining product strategy, product roadmaps and developing business cases for new products. Partnering with sales and technology team to deliver products to meet revenue goals. Knowledgeable about new technology and business trends and to determine their fit for current product lines and operations. |
+| **SOFTWARE DEVELOPMENT & DELIVERY** |     | Software architecture, design, architecture and design patterns, REST APIs, SaaS, public cloud, OOP, 3D and 2D CAD applications, SDLC, DevOps, CI/CD, Agile, SAFe.                                                                                                                                           |
+| **TEAM LEADERSHIP**                 |     | Proven delivery leader for commercial desktop and SaaS products. Skilled at organizing and managing software development teams.                                                                                                                                                                              |
+| **GLOBAL EXPERIENCE**               |     | Building and managing up onshore and offshore software engineering teams in matrixed organizations                                                                                                                                                                                                           |
 
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+#### Skills
+
+Amazon Web Services (AWS), Software Architecture, C++, C#, Java, JavaScript, Node.js, React.js, Redux, GraphQL, Cassandra, Kafka, Jenkins, JIRA, Mingle, ElasticSearch, microservices, design patterns, REST APIs, NoSQL, git, Scrum, Kanban, Security.
+
+#### Fun and hobbies
+
+- Enjoy running, tennis, occasionally gym
+- Singing - Bollywood music - Recordings on [Smule](https://www.smule.com/vrameshsharma)
+- Watch cricket matches (Test, One-days, T20!). Streaming - [Willow TV](https://www.willow.tv)
+- Love reading fiction - humor (P.G. Wodehouse), serious (John Steinbeck, W. Somerset Maugham), Crime (Lawrence Block, Lee Child)
+- Comics - Tintin, Asterix
+- Movies - any genre. Streaming - YouTube, Netflix, Amazon Prime, Hotstar
+- Music - Streaming - Google Play Music, YouTube
+- Podcasts

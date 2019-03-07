@@ -59,6 +59,7 @@ class PostTemplateDetails extends React.Component {
               </em>
             </div>
           </div>
+          <div>{commentsBlock}</div>
           <div className="post-single__footer">
             {tagsBlock}
             <hr />
@@ -72,7 +73,6 @@ class PostTemplateDetails extends React.Component {
                 <br /> <strong>{author.name}</strong> on Twitter
               </a>
             </p>
-            {commentsBlock}
           </div>
         </div>
       </div>

@@ -11,7 +11,7 @@
     "lint": "./node_modules/.bin/eslint --cache --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write './*.js' 'src/**/*.js' 'src/**/*.jsx'",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby-plugin-s3 deploy"
   },
   "repository": "git+https://github.com/alxshelepenok/gatsby-starter-lumen.git",
   "keywords": [
@@ -32,6 +32,7 @@
     "gatsby-plugin-google-fonts": "latest",
     "gatsby-plugin-offline": "^2.0.6",
     "gatsby-plugin-react-helmet": "^3.0.0",
+    "gatsby-plugin-s3": "^0.2.4",
     "gatsby-plugin-sass": "^2.0.1",
     "gatsby-plugin-sharp": "^2.0.6",
     "gatsby-plugin-sitemap": "^2.0.1",
