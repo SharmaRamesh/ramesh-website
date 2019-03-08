@@ -8,12 +8,12 @@ Accomplished product leader with diversified experience in Product Management an
 
 #### Core Competencies:
 
-|                                     |     |                                                                                                                                                                                                                                                                                                              |
-| :---------------------------------- | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **PRODUCT MANAGEMENT**              |     | Defining product strategy, product roadmaps and developing business cases for new products. Partnering with sales and technology team to deliver products to meet revenue goals. Knowledgeable about new technology and business trends and to determine their fit for current product lines and operations. |
-| **SOFTWARE DEVELOPMENT & DELIVERY** |     | Software architecture, design, architecture and design patterns, REST APIs, SaaS, public cloud, OOP, 3D and 2D CAD applications, SDLC, DevOps, CI/CD, Agile, SAFe.                                                                                                                                           |
-| **TEAM LEADERSHIP**                 |     | Proven delivery leader for commercial desktop and SaaS products. Skilled at organizing and managing software development teams.                                                                                                                                                                              |
-| **GLOBAL EXPERIENCE**               |     | Building and managing up onshore and offshore software engineering teams in matrixed organizations                                                                                                                                                                                                           |
+| &nbsp;                              | &nbsp;                                                                                                                                                                                                                                                                                                       |
+| :---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **PRODUCT MANAGEMENT**              | Defining product strategy, product roadmaps and developing business cases for new products. Partnering with sales and technology team to deliver products to meet revenue goals. Knowledgeable about new technology and business trends and to determine their fit for current product lines and operations. |
+| **SOFTWARE DEVELOPMENT & DELIVERY** | Software architecture, design, architecture and design patterns, REST APIs, SaaS, public cloud, OOP, 3D and 2D CAD applications, SDLC, DevOps, CI/CD, Agile, SAFe.                                                                                                                                           |
+| **TEAM LEADERSHIP**                 | Proven delivery leader for commercial desktop and SaaS products. Skilled at organizing and managing software development teams.                                                                                                                                                                              |
+| **GLOBAL EXPERIENCE**               | Building and managing up onshore and offshore software engineering teams in matrixed organizations                                                                                                                                                                                                           |
 
 #### Skills
 
@@ -28,4 +28,4 @@ Amazon Web Services (AWS), Software Architecture, C++, C#, Java, JavaScript, Nod
 - Comics - Tintin, Asterix
 - Movies - any genre. Streaming - YouTube, Netflix, Amazon Prime, Hotstar
 - Music - Streaming - Google Play Music, YouTube
-- Podcasts
+- Technology Podcasts

@@ -11,6 +11,7 @@ tags:
 description: 'Catalog some of the activities during job transition'
 ---
 
+![Hello](./job-transition-svgrepo-com.jpg 'Image Source: https://www.svgrepo.com/svg/43190/job-transition')
 Job transition is no fun - ever! However, it does force one to re-evaluate priorities and refocus. After all, this has thrown you out of your comfort zone and (mundane?) routine.
 
 ### Job transition resources

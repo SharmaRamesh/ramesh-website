@@ -94,6 +94,7 @@ module.exports = {
     {
       resolve: 'gatsby-transformer-remark',
       options: {
+        gfm: true,
         plugins: [
           {
             resolve: 'gatsby-remark-images',
