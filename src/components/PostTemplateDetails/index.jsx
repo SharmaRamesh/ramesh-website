@@ -24,9 +24,6 @@ class PostTemplateDetails extends React.Component {
     const { subtitle, author } = this.props.data.site.siteMetadata
     const post = this.props.data.markdownRemark
     const tags = post.fields.tagSlugs
-    // const featuredImage = post.frontmatter.featuredImage
-    console.log('Front Matter in PostTemplateDetails is ')
-    console.log(this.props)
 
     const homeBlock = (
       <div>

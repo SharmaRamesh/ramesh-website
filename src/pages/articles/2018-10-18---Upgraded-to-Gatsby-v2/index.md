@@ -8,7 +8,7 @@ category: 'Gatsby'
 tags:
   - 'Gatsby'
   - 'Web Development'
-description: 'Original Gatsby Starter content -not mine! This starter has been forked and upgraded to Gatsby v2'
+description: 'Original Gatsby Starter content - not mine! This starter has been forked and upgraded to Gatsby v2'
 featuredImage: './jonathan-pease-83071-unsplash.jpg'
 ---
 

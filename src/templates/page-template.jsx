@@ -25,8 +25,6 @@ class PageTemplate extends React.Component {
       }
       return <Img {...normalizedProps} />
     }
-    console.log('In page-template.jsx (under pages/pages) dumping this.props')
-    console.log(this.props)
     return (
       <Layout>
         <div>

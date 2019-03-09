@@ -14,14 +14,9 @@ class Post extends React.Component {
       featuredImage,
     } = this.props.data.node.frontmatter
     const { slug, categorySlug } = this.props.data.node.fields
-    console.log('the Featured Image is ')
-    console.log(featuredImage.childImageSharp)
     const NonStretchedImage = tempProps => {
       let normalizedProps = tempProps
-      console.log('checking if fluid present')
-      console.log(tempProps)
       if (tempProps && tempProps.presentationWidth) {
-        console.log('fluid present')
         normalizedProps = {
           ...tempProps,
           style: {
