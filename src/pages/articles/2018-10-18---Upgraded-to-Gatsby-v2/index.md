@@ -9,7 +9,10 @@ tags:
   - 'Gatsby'
   - 'Web Development'
 description: 'Original Gatsby Starter content -not mine! This starter has been forked and upgraded to Gatsby v2'
+featuredImage: './jonathan-pease-83071-unsplash.jpg'
 ---
+
+[//]: # 'Photo by Jonathan Pease on Unsplash'
 
 This is a Gatsby v2 compatible version of the
 [lumen](https://github.com/alxshelepenok/gatsby-starter-lumen) starter, started
@@ -31,3 +34,5 @@ If you **do decide to upgrade**, these articles will help you do that.
 Finally, here's a cheat sheet we prepared to help during the upgrade:
 
 - [Gatsby v2 refactoring cheat sheet](https://www.gatsbycentral.com/gatsby-v2-refactoring-cheat-sheet)
+
+_Image Credit: Photo by Jonathan Pease on Unsplash_

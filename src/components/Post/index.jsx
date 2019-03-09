@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import moment from 'moment'
+import Img from 'gatsby-image'
 import './style.scss'
 
 class Post extends React.Component {
@@ -10,8 +11,28 @@ class Post extends React.Component {
       date,
       category,
       description,
+      featuredImage,
     } = this.props.data.node.frontmatter
     const { slug, categorySlug } = this.props.data.node.fields
+    console.log('the Featured Image is ')
+    console.log(featuredImage.childImageSharp)
+    const NonStretchedImage = tempProps => {
+      let normalizedProps = tempProps
+      console.log('checking if fluid present')
+      console.log(tempProps)
+      if (tempProps && tempProps.presentationWidth) {
+        console.log('fluid present')
+        normalizedProps = {
+          ...tempProps,
+          style: {
+            ...(tempProps.style || {}),
+            maxWidth: tempProps.presentationWidth,
+            margin: '0 auto', // Used to center the image
+          },
+        }
+      }
+      return <Img {...normalizedProps} />
+    }
 
     return (
       <div className="post">
@@ -35,6 +56,7 @@ class Post extends React.Component {
           </Link>
         </h2>
         <p className="post__description">{description}</p>
+        <NonStretchedImage fluid={featuredImage.childImageSharp.fluid} />
         <Link className="post__readmore" to={slug}>
           Read
         </Link>

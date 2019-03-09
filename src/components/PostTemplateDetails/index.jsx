@@ -1,14 +1,32 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import moment from 'moment'
+import Img from 'gatsby-image'
 import Disqus from '../Disqus/Disqus'
 import './style.scss'
 
 class PostTemplateDetails extends React.Component {
   render() {
+    const NonStretchedImage = tempProps => {
+      let normalizedProps = tempProps
+      if (tempProps.fluid && tempProps.fluid.presentationWidth) {
+        normalizedProps = {
+          ...tempProps,
+          style: {
+            ...(tempProps.style || {}),
+            maxWidth: tempProps.fluid.presentationWidth,
+            margin: '0 auto', // Used to center the image
+          },
+        }
+      }
+      return <Img {...normalizedProps} />
+    }
     const { subtitle, author } = this.props.data.site.siteMetadata
     const post = this.props.data.markdownRemark
     const tags = post.fields.tagSlugs
+    // const featuredImage = post.frontmatter.featuredImage
+    console.log('Front Matter in PostTemplateDetails is ')
+    console.log(this.props)
 
     const homeBlock = (
       <div>
@@ -48,6 +66,9 @@ class PostTemplateDetails extends React.Component {
         <div className="post-single">
           <div className="post-single__inner">
             <h1 className="post-single__title">{post.frontmatter.title}</h1>
+            <NonStretchedImage
+              fluid={post.frontmatter.featuredImage.childImageSharp.fluid}
+            />
             <div
               className="post-single__body"
               /* eslint-disable-next-line react/no-danger */

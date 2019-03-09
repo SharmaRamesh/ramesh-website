@@ -67,6 +67,14 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            featuredImage {
+              childImageSharp {
+                fluid(maxWidth: 400, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                  presentationWidth
+                }
+              }
+            }
             date
             category
             description

@@ -10,6 +10,8 @@ class PostTemplate extends React.Component {
     const post = this.props.data.markdownRemark
     const { title: postTitle, description: postDescription } = post.frontmatter
     const description = postDescription !== null ? postDescription : subtitle
+    console.log('In post-template.jsx dumping this.props')
+    console.log(this.props)
 
     return (
       <Layout>
@@ -50,6 +52,14 @@ export const pageQuery = graphql`
       }
       frontmatter {
         title
+        featuredImage {
+          childImageSharp {
+            fluid(maxWidth: 600, quality: 100) {
+              ...GatsbyImageSharpFluid
+              presentationWidth
+            }
+          }
+        }
         tags
         date
         description

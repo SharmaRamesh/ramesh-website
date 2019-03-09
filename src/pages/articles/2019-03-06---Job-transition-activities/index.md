@@ -9,9 +9,9 @@ tags:
   - 'Training'
   - 'Skills'
 description: 'Catalog some of the activities during job transition'
+featuredImage: './emma-matthews-973230-unsplash.jpg'
 ---
 
-![Hello](./job-transition-svgrepo-com.jpg 'Image Source: https://www.svgrepo.com/svg/43190/job-transition')
 Job transition is no fun - ever! However, it does force one to re-evaluate priorities and refocus. After all, this has thrown you out of your comfort zone and (mundane?) routine.
 
 ### Job transition resources
@@ -20,5 +20,7 @@ Job transition is no fun - ever! However, it does force one to re-evaluate prior
 - Church-based Career networks. Some of them are quite active and provide networking and training opportunities very similar to the career transition companies.
 - Being in a technology field, I am listing the following resources
 
-  - Udemy
+  - [Udemy](https://www.udemy.com). Excellent and relatively inexpensive resource for training on modern stacks and technologies.
   - [O'Reilly Online](https://learning.oreilly.com/home/). Gives you access to many of their excellent books, and online courses. I joined ACM, and as part of their subscription, you get access to O'Reilly
+
+_Image Credit: Photo by Emma Matthews on Unsplash_

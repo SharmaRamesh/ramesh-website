@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
+import Img from 'gatsby-image'
 import Layout from '../components/Layout'
 import PageTemplateDetails from '../components/PageTemplateDetails'
 
@@ -10,13 +11,29 @@ class PageTemplate extends React.Component {
     const page = this.props.data.markdownRemark
     const { title: pageTitle, description: pageDescription } = page.frontmatter
     const description = pageDescription !== null ? pageDescription : subtitle
-
+    const NonStretchedImage = tempProps => {
+      let normalizedProps = tempProps
+      if (tempProps.fluid && tempProps.fluid.presentationWidth) {
+        normalizedProps = {
+          ...tempProps,
+          style: {
+            ...(tempProps.style || {}),
+            maxWidth: tempProps.fluid.presentationWidth,
+            margin: '0 auto', // Used to center the image
+          },
+        }
+      }
+      return <Img {...normalizedProps} />
+    }
+    console.log('In page-template.jsx (under pages/pages) dumping this.props')
+    console.log(this.props)
     return (
       <Layout>
         <div>
           <Helmet>
             <title>{`${pageTitle} - ${title}`}</title>
             <meta name="description" content={description} />
+            <NonStretchedImage fluid={page.frontmatter} />
           </Helmet>
           <PageTemplateDetails {...this.props} />
         </div>
@@ -53,6 +70,14 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        featuredImage {
+          childImageSharp {
+            fluid(maxWidth: 500, quality: 100) {
+              ...GatsbyImageSharpFluid
+              presentationWidth
+            }
+          }
+        }
         date
         description
       }
