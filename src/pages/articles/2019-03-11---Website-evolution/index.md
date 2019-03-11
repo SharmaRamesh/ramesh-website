@@ -1,26 +1,40 @@
 ---
-title: Job Transition
-date: '2019-03-06T16:51:00.000Z'
+title: Personal website - technologies and tools used.
+date: '2019-03-11T16:51:00.000Z'
 layout: post
 draft: false
-path: '/posts/job-transition-activities/'
-category: 'Career'
+path: '/posts/website-evolution/'
+category: 'Tools'
 tags:
-  - 'Training'
-  - 'Skills'
-description: 'Catalog some of the activities during job transition'
-featuredImage: './emma-matthews-973230-unsplash.jpg'
+  - 'Javascript'
+  - 'AWS'
+  - 'Gatsby'
+description: 'How I built a personal website using some new tools and technologies'
+featuredImage: './mydesktop.jpg'
 ---
 
-Job transition is no fun - ever! However, it does force one to re-evaluate priorities and refocus. After all, this has thrown you out of your comfort zone and (mundane?) routine.
+Over the past couple of weeks I have been re-learning React, and looking for ways to put my learnings around node.js, React, GraphQL and AWS to some practical use. What better than a vanity project - my own personal website!
 
-### Job transition resources
+I have really come to enjoy working with node.js and the entire ecosystem around it. With so much focus on making Javascript more palatable for OOP purists, the tools and IDEs around Javascript have really come a long way!
 
-- If you are lucky, your previous employer "sponsors" you to a company that specializes in assisting you with your job transition. The sponsorship duration varies from a couple of months to six months or more. This company provides personal coaching, several online resources for training, company lists, templates for various activities/artifacts - such as resumes, marketing document. Training includes some very useful webinars and in-person sessions on networking skills, enterpreneurship options, LinkedIn profiles, resume-building etc. You get a community of other folks in transition, and you get comfort and encouragement as a result, and your network multiplies.
-- Church-based Career networks. Some of them are quite active and provide networking and training opportunities very similar to the career transition companies.
-- Being in a technology field, I am listing the following resources
+My goal was to start with a minimalist site and add more capabilities along the way. The [gatsby-starter-lumen](https://www.gatsbyjs.org/starters/alxshelepenok/gatsby-starter-lumen/) starter fit the bill nicely.
 
-  - [Udemy](https://www.udemy.com). Excellent and relatively inexpensive resource for training on modern stacks and technologies.
-  - [O'Reilly Online](https://learning.oreilly.com/home/). Gives you access to many of their excellent books, and online courses. I joined ACM, and as part of their subscription, you get access to O'Reilly
+Here are some of the tools and technologies I used/copied/borrowed to create my blog-site - in no specific order.
 
-_<small>Image Credit: Photo by [Emma Matthews](https://unsplash.com/@emmamatthews) on [Unsplash](https://unsplash.com)</small>_
+- [Node.js](https://nodejs.org/en/)
+- [Gatsby.js](https://www.gatsbyjs.org/)
+- [React](https://reactjs.org/)
+- [Github](https://github.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Amazon S3](https://aws.amazon.com/s3/)
+- [Amazon Route 53](https://aws.amazon.com/route53/)
+- [Amazon CloudFront](https://aws.amazon.com/cloudfront/)
+- [AWS Certificate Manager](https://aws.amazon.com/certificate-manager/)
+- [gatsby-starter-lumen](https://www.gatsbyjs.org/starters/alxshelepenok/gatsby-starter-lumen/)
+- [Featured Blog Images in Gatsby.js](https://codebushi.com/gatsby-featured-images/)
+- [An Introduction to Using Gatsby Image & Gatsby.js V2](https://codebushi.com/using-gatsby-image/)
+- [Unsplash - photos for everyone](https://unsplash.com/) - great site to get and contribute high quality copyright- free images!
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Enable HTTPS with Amazon Web Services Certificate Manager, CloudFront and S3](https://webinista.com/updates/enable-https-cloudfront-certificate-manager-s3/)
+
+I hope to continue developing this site and updating with more details!
