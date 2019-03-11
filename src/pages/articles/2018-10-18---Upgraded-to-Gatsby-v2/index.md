@@ -35,4 +35,4 @@ Finally, here's a cheat sheet we prepared to help during the upgrade:
 
 - [Gatsby v2 refactoring cheat sheet](https://www.gatsbycentral.com/gatsby-v2-refactoring-cheat-sheet)
 
-_Image Credit: Photo by Jonathan Pease on Unsplash_
+_<small>Image Credit: Photo by [Jonathan Pease](https://unsplash.com/@jpease) on [Unsplash](https://unsplash.com)</small>_
