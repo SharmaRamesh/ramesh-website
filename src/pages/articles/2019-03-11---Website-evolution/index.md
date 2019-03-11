@@ -1,5 +1,5 @@
 ---
-title: Personal website - technologies and tools used.
+title: Personal website - my ingredients & recipe
 date: '2019-03-11T16:51:00.000Z'
 layout: post
 draft: false
