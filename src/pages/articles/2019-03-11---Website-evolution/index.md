@@ -10,7 +10,7 @@ tags:
   - 'AWS'
   - 'Gatsby'
 description: 'How I built a personal website using some new tools and technologies'
-featuredImage: './mydesktop.jpg'
+featuredImage: './mydesktop2.jpg'
 ---
 
 Over the past couple of weeks I have been re-learning React, and looking for ways to put my learnings around node.js, React, GraphQL and AWS to some practical use. What better than a vanity project - my own personal website!

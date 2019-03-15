@@ -3,7 +3,7 @@ const pxtorem = require('postcss-pxtorem')
 
 module.exports = {
   siteMetadata: {
-    url: 'http://localhost:8000/',
+    url: 'https://rameshsharma.org/',
     title: 'Blog by Ramesh Sharma',
     author: {
       name: 'Ramesh Sharma',
@@ -15,7 +15,7 @@ module.exports = {
     },
     subtitle: 'My Journey',
     copyright: '© All rights reserved.',
-    disqusShortname: '',
+    disqusShortname: 'rameshsharmablog',
     menu: [
       {
         label: 'Articles',
@@ -116,7 +116,11 @@ module.exports = {
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-google-analytics',
-      options: { trackingId: 'UA-73379983-2' },
+      options: {
+        trackingId: 'UA-136082092-1',
+        anonymize: true,
+        respectDNT: true,
+      },
     },
     {
       resolve: 'gatsby-plugin-google-fonts',
