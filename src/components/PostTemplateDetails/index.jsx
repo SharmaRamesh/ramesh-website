@@ -5,6 +5,8 @@ import Img from 'gatsby-image'
 import Disqus from '../Disqus/Disqus'
 import './style.scss'
 
+const path = require('path')
+
 class PostTemplateDetails extends React.Component {
   render() {
     const NonStretchedImage = tempProps => {
@@ -24,7 +26,9 @@ class PostTemplateDetails extends React.Component {
     const { subtitle, author } = this.props.data.site.siteMetadata
     const post = this.props.data.markdownRemark
     const tags = post.fields.tagSlugs
-
+    // const srcPath =
+    //  post.fields.slug +
+    //  path.basename(post.frontmatter.featuredImage.childImageSharp.fluid.src)
     const homeBlock = (
       <div>
         <Link className="post-single__home-button" to="/">
@@ -63,9 +67,11 @@ class PostTemplateDetails extends React.Component {
         <div className="post-single">
           <div className="post-single__inner">
             <h1 className="post-single__title">{post.frontmatter.title}</h1>
+
             <NonStretchedImage
               fluid={post.frontmatter.featuredImage.childImageSharp.fluid}
             />
+
             <div
               className="post-single__body"
               /* eslint-disable-next-line react/no-danger */

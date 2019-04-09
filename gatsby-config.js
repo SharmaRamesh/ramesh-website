@@ -1,6 +1,7 @@
 const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
+const siteAddress = new URL('https://rameshsharma.org')
 module.exports = {
   siteMetadata: {
     url: 'https://rameshsharma.org/',
@@ -204,6 +205,8 @@ module.exports = {
       resolve: 'gatsby-plugin-s3',
       options: {
         bucketName: 'rameshsharma.org',
+        protocol: siteAddress.protocol.slice(0, -1),
+        hostname: siteAddress.hostname,
       },
     },
     {

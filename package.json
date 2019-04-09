@@ -11,7 +11,8 @@
     "lint": "./node_modules/.bin/eslint --cache --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write './*.js' 'src/**/*.js' 'src/**/*.jsx'",
-    "deploy": "gatsby-plugin-s3 deploy"
+    "deploy": "aws s3 sync public s3://rameshsharma.org",
+    "clear": "aws-cloudfront-invalidate E3LJPB7I77SKFB"
   },
   "repository": "git+https://github.com/alxshelepenok/gatsby-starter-lumen.git",
   "keywords": [
@@ -24,6 +25,7 @@
   "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "aws-cloudfront-invalidate": "^0.1.3",
     "bluebird": "^3.5.1",
     "gatsby": "^2.0.22",
     "gatsby-image": "^2.0.31",

@@ -9,7 +9,7 @@ tags:
   - 'Javascript'
   - 'AWS'
   - 'Gatsby'
-description: 'How I built a personal website using some new tools and technologies'
+description: How I built a personal website using some new tools and technologies
 featuredImage: './mydesktop2.jpg'
 ---
 
@@ -33,8 +33,9 @@ Here are some of the tools and technologies I used/copied/borrowed to create my 
 - [gatsby-starter-lumen](https://www.gatsbyjs.org/starters/alxshelepenok/gatsby-starter-lumen/)
 - [Featured Blog Images in Gatsby.js](https://codebushi.com/gatsby-featured-images/)
 - [An Introduction to Using Gatsby Image & Gatsby.js V2](https://codebushi.com/using-gatsby-image/)
-- [Unsplash - photos for everyone](https://unsplash.com/) - great site to get and contribute high quality copyright- free images!
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Deploying to S3/Cloudfront](https://www.gatsbyjs.org/docs/deploying-to-s3-cloudfront/)
 - [Enable HTTPS with Amazon Web Services Certificate Manager, CloudFront and S3](https://webinista.com/updates/enable-https-cloudfront-certificate-manager-s3/)
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Unsplash - photos for everyone](https://unsplash.com/) - great site to get and contribute high quality copyright- free images!
 
 I hope to continue developing this site and updating with more details!

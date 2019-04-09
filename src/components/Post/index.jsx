@@ -51,8 +51,8 @@ class Post extends React.Component {
           </Link>
         </h2>
         <p className="post__description">{description}</p>
-        <NonStretchedImage fluid={featuredImage.childImageSharp.fluid} />
         <Link className="post__readmore" to={slug}>
+          <NonStretchedImage fluid={featuredImage.childImageSharp.fluid} />
           Read
         </Link>
       </div>
